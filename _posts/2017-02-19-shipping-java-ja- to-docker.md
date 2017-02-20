@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Shipping a Jar to Docker!"
+title:  "Shipping Docker with Java application"
 date:   2017-02-19 23:44:26 +0200
 ---
 Docker is not a new technology anymore, it become everyday tool for many 
@@ -8,11 +8,14 @@ developers. However there are a lot of people who still have not tried
 Docker. In this article I'm going to show you how to ship a standalone 
 Java application in Docker container.
 
-1. First of all you have to install 
-[docker](https://docs.docker.com/engine/installation/).
+**Docker installation**
 
-2. Create simple java project with main method.
+Follow the instructions from 
+[docker.com](https://docs.docker.com/engine/installation/).
 
+**Create java project**
+
+Create simple java project with main method.  
 {% highlight java %}
 package hello;
 
@@ -27,44 +30,42 @@ public class HelloWorld {
     }
 }
 {% endhighlight %}  
-This code does nothing except notify user avery 2 seconds.
 
+This code does nothing except notify user every 2 seconds.  
 Build this code into a jar using your IDE. Or if you're lazy enough you can 
-[download the project from GitHub](https://github.com/Shpota/java-docker-example)
+[download the project from GitHub](https://github.com/Shpota/java-docker-example).
 It contains the jar file as well.
 
-3. Now we have to build Docker image which contains the jar. 
+**Prepare Dockerfile**
 
 Create file with name `Dockerfile` in root of your project and add 
 the next commands into it:
-
+  
 {% highlight sh %}
 FROM openjdk:8
 ADD build/libs/java-docker-example-0.1.0.jar /opt/hello/app.jar
 WORKDIR /opt/hello
 ENTRYPOINT [ "sh", "-c", "java -cp app.jar hello.HelloWorld" ]
 {% endhighlight %}
-
+  
 The first directive of this file creates our image based on 
-[openjdk jre-8 image](https://hub.docker.com/_/openjdk/) it is 
-Ubuntu distribution with installed JRE on top of it.
-
+[openjdk jre-8 image](https://hub.docker.com/_/openjdk/). It is 
+Ubuntu distribution with JRE installed on top of it.
+  
 The second directive copies our jar file into the docker image.
 Note: if you're using your own jar file (not the one from GitHub) you
 might have different jar name. If so - simply replace 
 `build/libs/java-docker-example-0.1.0.jar` with your own jar providing 
 appropriate path.
-
+  
 The third step sets the work directory of the image into the directory 
 which contains the jar.
-
+  
 And the lat directive performs `sh` command which runs java. You can also 
-
 use more short form `java -jar app.jar` but make sure that your manifest
 contains a reference to the main class.
 
-4. Now we have to run the command which will build the image based on
-the instructions from `Dockerfile`. 
+**Build Docker image**
 
 Open terminal in root folder of your project and perform the command:
 
@@ -100,7 +101,9 @@ REPOSITORY             TAG      IMAGE ID       CREATED         SIZE
 java-docker-example    latest   f46dfdb8195b   7 minutes ago   641.5 MB
 {% endhighlight %}
 
-5. We'are ready to run the container based on the image, perform:
+**We'are ready to run the container**
+
+Perform:
 {% highlight sh %}
 $ docker run java-docker-example
 {% endhighlight %}
