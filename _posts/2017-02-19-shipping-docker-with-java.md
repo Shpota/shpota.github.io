@@ -2,6 +2,8 @@
 layout: post
 title:  "Shipping Docker with Java application"
 date:   2017-02-19 23:44:26 +0200
+comments: true
+---
 ---
 Docker is not a new technology anymore, it become everyday tool for many 
 developers. However there are a lot of people who still have not tried 
