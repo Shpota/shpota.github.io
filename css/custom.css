@@ -7,3 +7,19 @@
 .social-icons {
   text-decoration: none !important;
 }
+
+.icon-stackoverflow:hover > svg path {
+ fill: #f48024;
+}
+.icon-github:hover > svg path {
+ fill: #800080;
+}
+.icon-facebook:hover > svg path {
+ fill: #3b5998;
+}
+.icon-linkedin:hover > svg path {
+ fill: #007bb6;
+}
+.icon-rss:hover > svg path {
+ fill: #f60;
+}
