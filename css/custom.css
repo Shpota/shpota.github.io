@@ -3,3 +3,7 @@
   color: #828282;
   text-align: center;
 }
+
+.social-icons {
+  text-decoration: none !important;
+}
