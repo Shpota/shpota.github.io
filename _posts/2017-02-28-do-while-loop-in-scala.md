@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Implementing do-while loop in Scala"
-date:   2017-02-24 22:19:00 +0200
+date:   2017-02-28 21:00:00 +0200
 comments: true
 ---
 I recently completed Scala course on Coursera, that doesn't turn 
