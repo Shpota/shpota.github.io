@@ -23,3 +23,7 @@
 .icon-rss:hover > svg path {
  fill: #f60;
 }
+
+.site-header {
+    border-top: 0 !important;
+}
