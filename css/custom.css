@@ -9,21 +9,34 @@
 }
 
 .icon-stackoverflow:hover > svg path {
- fill: #f48024;
+  fill: #f48024;
 }
+
 .icon-github:hover > svg path {
- fill: #800080;
+  fill: #800080;
 }
+
 .icon-facebook:hover > svg path {
- fill: #3b5998;
+  fill: #3b5998;
 }
+
 .icon-linkedin:hover > svg path {
- fill: #007bb6;
+  fill: #007bb6;
 }
+
 .icon-rss:hover > svg path {
- fill: #f60;
+  fill: #f60;
 }
 
 .site-header {
-    border-top: 0 !important;
+  border-top: 0 !important;
+}
+
+.post-content a:link, .post-content a:visited, .post-list a:link, .post-list a:visited {
+  color: #000;
+  text-decoration: underline;
+}
+
+.post-link {
+  text-decoration: none !important;
 }
