@@ -13,6 +13,12 @@ That task made a great impression. It shows all the power of the
 language and it's features. And I want to share the implementation 
 with you.
 
+{% 
+  include picture.html 
+  href="2017-02-28-do-while-loop-in-scala.jpg" 
+ copyright="BBC"
+%}
+
 Scala already has its own do-while loop (even if it contradicts to 
 functional paradigm). Here is how it looks like:
 
