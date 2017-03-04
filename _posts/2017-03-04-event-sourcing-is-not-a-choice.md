@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Why event sourcing is not a choice for your next project?"
-date:   2017-03-03 10:00:00 +0200
+date:   2017-03-04 10:00:00 +0200
 comments: true
 ---
-Event-Driven Architecture become very popular nowadays. It is
+Event-driven architecture become very popular nowadays. It is
 easy to start and it can be easily integrated with popular Java frameworks 
 like Spring. I have been working with event sourcing for last half an year and 
 I collected some thoughts on this subject. Despite all its features I believe 
@@ -109,7 +109,7 @@ when it is needed. The more changes you have the slower the process. It will
 be extremely slow if you need to operate with bunch of entities at the 
 same time. 
 
-Of course you can apply some optimizations. For instance event-sourcing works 
+Of course you can apply some optimizations. For instance ES works 
 well in [CQRS model](https://martinfowler.com/bliki/CQRS.html). In that case
 you'll have write model and fast read model. That might solve performance issue
 but it can also introduce new issues. It is always a trade-off. 
@@ -128,7 +128,7 @@ If you have preconditions like this:
 * Writes dominate over reads
 * There is no responsible UI to show domain entities
 
-you can think about event sourcing.
+you can think about ES.
 
 The best examples of applying event-driven architecture are 
 [Blockchain](https://en.wikipedia.org/wiki/Blockchain_(database)) and 
