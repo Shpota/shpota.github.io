@@ -9,6 +9,13 @@ developers. However there are a lot of people who still have not tried
 Docker. In this article I'm going to show you how to ship a standalone 
 Java application in Docker container.
 
+{% 
+  include picture.html 
+  href="2017-02-19-shipping-docker-with-java.jpg" 
+ copyright="www.atlanticshipping.is"
+%}
+
+<br/>
 **Docker installation**
 
 Follow the instructions from 
