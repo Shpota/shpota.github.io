@@ -56,11 +56,11 @@ WORKDIR /opt/hello
 ENTRYPOINT [ "sh", "-c", "java -cp app.jar hello.HelloWorld" ]
 {% endhighlight %}
   
-The first directive of this file creates our image based on 
+The first directive of this file creates docker image based on 
 [openjdk jre-8 image](https://hub.docker.com/_/openjdk/). It is 
 Ubuntu distribution with JRE installed on top of it.
   
-The second directive copies our jar file into the docker image.
+The second directive copies jar file into the docker image.
 Note: if you're using your own jar file (not the one from GitHub) you
 might have different jar name. If so - simply replace 
 `build/libs/java-docker-example-0.1.0.jar` with your own jar providing 
