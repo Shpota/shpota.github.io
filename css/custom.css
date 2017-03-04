@@ -40,3 +40,23 @@
 .post-link {
   text-decoration: none !important;
 }
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+figure figcaption {
+  background-color: rgba(0,0,0,0.7);
+  bottom: 1em;
+  color: #777;
+  font-size: .8em;
+  left: .5em;
+  line-height: 1em;
+  max-width: 90%;
+  position: absolute;
+}
+
+figcaption {
+  display: block;
+}
