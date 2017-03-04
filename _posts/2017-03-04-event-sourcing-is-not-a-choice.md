@@ -20,7 +20,7 @@ of all of its consequences.
 I'm not saying that my point is the single right point. May be you
 have different experience. I will be glad if you share it with me.
 
-Here are the drawbacks of using Event-Driven Architecture:
+Here are the drawbacks of using event-driven architecture:
 
 **It is very verbose**
 
