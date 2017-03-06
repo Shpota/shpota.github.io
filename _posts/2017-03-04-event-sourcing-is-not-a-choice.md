@@ -17,10 +17,7 @@ of all of its consequences.
  copyright="Reuters"
 %}
 
-I'm not saying that my point is the single right point. May be you
-have different experience. I will be glad if you share it with me.
-
-Here are the drawbacks of using event-driven architecture:
+I want to list some drawbacks that I found working with event-driven architecture. I’m not saying that you shouldn't use it, this are just my observations. May be you have different opinion. I will be glad if you share it with me.
 
 **It is very verbose**
 
