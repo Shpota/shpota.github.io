@@ -4,8 +4,8 @@ title:  "Shipping Docker with Java application"
 date:   2017-02-19 23:44:26 +0200
 comments: true
 ---
-Docker is not a new technology anymore, it become everyday tool for many 
-developers. However there are a lot of people who still have not tried 
+Docker is not a new technology anymore, it becomes everyday tool for many 
+developers. However, there are a lot of people who still have not tried 
 Docker. In this article I'm going to show you how to ship a standalone 
 Java application in Docker container.
 
@@ -39,8 +39,8 @@ public class HelloWorld {
 }
 {% endhighlight %}  
 
-This code does nothing except notify user every 2 seconds.  
-Build this code into a jar using your IDE. Or if you're lazy enough you can 
+This code does nothing except notifying user every 2 seconds.  
+Build this code into a jar using your IDE. Or if you're lazy enough, you can 
 [download the project from GitHub](https://github.com/Shpota/java-docker-example).
 It contains the jar file as well.
 
@@ -61,16 +61,16 @@ The first directive of this file creates docker image based on
 Ubuntu distribution with JRE installed on top of it.
   
 The second directive copies jar file into the docker image.
-Note: if you're using your own jar file (not the one from GitHub) you
+Note: if you're using your own jar file (not the one from GitHub), you
 might have different jar name. If so - simply replace 
 `build/libs/java-docker-example-0.1.0.jar` with your own jar providing 
 appropriate path.
   
-The third step sets the work directory of the image into the directory 
+The third step sets the work directory of the image into the directory, 
 which contains the jar.
   
-And the lat directive performs `sh` command which runs java. You can also 
-use more short form `java -jar app.jar` but make sure that your manifest
+And the last directive performs `sh` command which runs java. You can also 
+use more short form `java -jar app.jar`, but make sure that your manifest
 contains a reference to the main class.
 
 **Build Docker image**
@@ -81,8 +81,8 @@ Open terminal in root folder of your project and perform the command:
 $ docker build -t java-docker-example .
 {% endhighlight %}
 
-It might take some time because docker will download all the 
-dependencies. Once it is ready you'll see something like this:
+It might take some time, because docker will download all the 
+dependencies. Once it is ready, you'll see something like this:
 ```
 Sending build context to Docker daemon 442.4 kB
 Step 1 : FROM openjdk:8
