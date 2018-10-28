@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-I'm Oleksandr Shpota, a software eagerer, researcher and simply 
+I'm Oleksandr Shpota, a software engineer, researcher and simply 
 a guy from the internet.
 
 I work mostly with Java ecosystem so this blog will be about 
