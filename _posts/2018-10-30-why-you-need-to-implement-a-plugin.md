@@ -199,7 +199,7 @@ return Arrays.stream(members)
         .collect(toList());
 ```
 Here you take all properties, convert them to needed types and create new
-fields our of them.
+fields out of them.
 
 This is all you need to make it work. It is pretty easy, isn't it?
 
