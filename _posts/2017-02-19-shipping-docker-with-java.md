@@ -12,7 +12,7 @@ Java application in Docker container.
 {% 
   include picture.html 
   href="2017-02-19-shipping-docker-with-java.jpg" 
- copyright="www.atlanticshipping.is"
+ copyright="atlanticshipping. is"
 %}
 
 <br/>
