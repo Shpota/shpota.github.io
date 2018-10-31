@@ -25,18 +25,18 @@ And how complex is it? This is what I'll try address in this blog.
 If you work within a team for some time you for sure have some
 coding standards, architectural standards, some other patterns.
 If it is a web application with Spring you might 
-brake your code into repository, service and controller levels.
+break your code into repository, service and controller levels.
 Or let's say you have Event Driven architecture then you might have
 some standard event classes, aggregate classes, etc. 
 In all of these cases you can always find a pattern which you can automate. 
 You can automatically generate some stubs for
 Controllers, Services and Repositories based on an Entity class you have.
 You might generate DTOs or you can generate event classes. All of these 
-cases are partly or some times even fully
+cases are partly or sometimes even fully
 automatable. There is no need to perform these operations manually if a machine
 can do it for you. Not only will you save development time, you'll
 also prevent mistakes that you could make if you wrote the same code manually.
-On my current project we automated significant part of development by only
+On my current project, we automated significant part of development by only
 covering routine scenarios. Of course, the plugin will be useless once 
 the project is done (it fully relies on project structure and our domain area),
 but looking on the time we saved it was worth it.
@@ -74,12 +74,12 @@ I want to implement the following scenario:
   href="2018-10-30-plugin-showcase.gif" 
 %}
 
-As a result the IDE creates a DTO class with the selected fields. 
+As a result, the IDE creates a DTO class with the selected fields. 
 
-Okay, let's start. First of all, you need to crate 
+Okay, let's start. First of all, you need to create 
 [a Plugin Development project](https://www.jetbrains.com/help/idea/creating-a-project-for-plugin-development.html).
 
-Then you need to introduce a new menu item ('Generate DTO' button). For this purpose
+Then you need to introduce a new menu item ('Generate DTO' button). For this purpose,
 you need to create two java classes and an xml configuration file. The first class should
 extend `BaseGenerateAction`. It will represent the menu item itself:
 ```java
@@ -176,7 +176,7 @@ protected List<? extends GenerationInfo> generateMemberPrototypes(
 }
 ``` 
 If you now run the plugin you'll be able to see the newly generated file in the 
-end fo the workflow.
+end of the workflow.
 
 The final step would be adding the fields to the generated class file.
 You can achieve this using the following code (just replace 
