@@ -22,9 +22,9 @@ And how complex is it? This is what I'll try to address in this blog.
   copyright="oemupdate. com"
 %}
 
-If you work within a team for a certain amount of time, you are bound
-to develop a shared set of coding standards, architectural standards, or
-any sort of similar patterns for that matter. If it is a web application 
+A team that works together continuously naturally developes a shared
+set of coding or architectural standards. In a nutshell, similar
+patterns arise. If it is a web application 
 with Spring, then you might  break your code into repository, service 
 and controller levels. Or let's say you have Event Driven architecture, 
 then you might have some standard event classes, aggregate classes, etc. 
