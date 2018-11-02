@@ -7,7 +7,7 @@ comments: true
 IntelliJ IDEA is a powerful tool that aims at increasing
 productivity. It speeds up the development process and optimizes 
 most of the standard use cases such as code formatting, code generation, 
-navigation, etc. However, the utility of the IntelliJ IDEA is not limited 
+navigation, etc. However, the utility of IntelliJ IDEA is not limited 
 to these processes. For instance, I set up my IDE to generate tests prefixed with 
 the word 'should'. The plugin also automatically [adds annotations to test classes 
 depending on their names](https://stackoverflow.com/a/47202979/2065796). 
