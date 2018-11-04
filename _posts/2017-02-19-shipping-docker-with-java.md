@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Shipping Docker with Java application"
+title:  "Shipping Docker with Java Application"
 date:   2017-02-19 23:44:26 +0200
 comments: true
 ---
-Docker is not a new technology anymore, it becomes everyday tool for many 
-developers. However, there are a lot of people who still have not tried 
-Docker. In this article I'm going to show you how to ship a standalone 
-Java application in Docker container.
+Docker is not a new technology anymore. In the meanwhile, it has become an 
+everyday tool for many developers. However, there are still a lot of people out there
+who haven't tried Docker. In this article, I'm going to show you how to ship
+a standalone Java application in a Docker container.
 
 {% 
   include picture.html 
@@ -23,7 +23,7 @@ Follow the instructions from
 
 **Create java project**
 
-Create simple java project with main method.  
+Create a simple java project with main method.  
 {% highlight java %}
 package hello;
 
@@ -39,14 +39,14 @@ public class HelloWorld {
 }
 {% endhighlight %}  
 
-This code does nothing except notifying user every 2 seconds.  
-Build this code into a jar using your IDE. Or if you're lazy enough, you can 
+This code does nothing else other than notifying the user every 2 seconds.  
+Build this code into a jar using your IDE. Or if you're lazy, just 
 [download the project from GitHub](https://github.com/Shpota/java-docker-example).
-It contains the jar file as well.
+It already contains the jar file as well.
 
 **Prepare Dockerfile**
 
-Create file with name `Dockerfile` in root of your project and add 
+Create a file with the name `Dockerfile` to the root of your project and add 
 the next commands into it:
   
 {% highlight sh %}
@@ -56,21 +56,21 @@ WORKDIR /opt/hello
 ENTRYPOINT [ "sh", "-c", "java -cp app.jar hello.HelloWorld" ]
 {% endhighlight %}
   
-The first directive of this file creates docker image based on 
+The first directive of this file creates a docker image based on 
 [openjdk jre-8 image](https://hub.docker.com/_/openjdk/). It is 
-Ubuntu distribution with JRE installed on top of it.
+an Ubuntu distribution with JRE installed on top of it.
   
-The second directive copies jar file into the docker image.
+The second directive copies the jar file into the Docker image.
 Note: if you're using your own jar file (not the one from GitHub), you
-might have different jar name. If so - simply replace 
-`build/libs/java-docker-example-0.1.0.jar` with your own jar providing 
-appropriate path.
+might have a different jar name. If so - simply replace 
+`build/libs/java-docker-example-0.1.0.jar` with your own jar name, thus providing 
+an appropriate path.
   
-The third step sets the work directory of the image into the directory, 
+The third step sets the work directory of the image into the directory 
 which contains the jar.
   
 And the last directive performs `sh` command which runs java. You can also 
-use more short form `java -jar app.jar`, but make sure that your manifest
+use a shorter form `java -jar app.jar`, but make sure that your manifest
 contains a reference to the main class.
 
 **Build Docker image**
@@ -81,7 +81,7 @@ Open terminal in root folder of your project and perform the command:
 $ docker build -t java-docker-example .
 {% endhighlight %}
 
-It might take some time, because docker will download all the 
+This might take some time, because Docker will download all the 
 dependencies. Once it is ready, you'll see something like this:
 ```
 Sending build context to Docker daemon 442.4 kB
@@ -109,7 +109,7 @@ REPOSITORY             TAG      IMAGE ID       CREATED         SIZE
 java-docker-example    latest   f46dfdb8195b   7 minutes ago   641.5 MB
 {% endhighlight %}
 
-**We'are ready to run the container**
+**We're ready to run the container**
 
 Perform:
 {% highlight sh %}
@@ -127,10 +127,10 @@ The current local time is: 23:33:03.625
 You can watch your running containers by executing `$ docker ps` command.
 You can also stop or remove your container.
  
-`docker stop c79f70478154` stops container with `CONTAINER ID` c79f70478154 (you 
+`docker stop c79f70478154` stops the container with `CONTAINER ID` c79f70478154 (you 
  can find CONTAINER ID in `docker ps` output).
 
-`docker rm c79f70478154` removes container with id c79f70478154
+`docker rm c79f70478154` removes the container with id c79f70478154
 
 `docker rm -f c79f70478154` removes the container even if it is still running.
 
