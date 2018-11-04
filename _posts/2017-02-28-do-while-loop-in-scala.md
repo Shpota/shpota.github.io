@@ -71,5 +71,5 @@ place where it will first be evaluated.
 The next code is simple, if `condition` is `true`, then the `until` function will
 be invoked recursively. Otherwise an empty result will be returned.
 
-Finally, the construction of a do-while loop becomes real/possible because Scala does not require 
+Finally, the construction of a do-while loop becomes possible because Scala does not require 
 using dots during function invocation.
