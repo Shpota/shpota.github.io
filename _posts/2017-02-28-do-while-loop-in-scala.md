@@ -1,17 +1,18 @@
 ---
 layout: post
-title:  "Implementing do-while loop in Scala"
+title:  "Implementing do-while Loop in Scala"
 date:   2017-02-28 21:00:00 +0200
 comments: true
 ---
-I have recently completed Scala course on Coursera, that doesn't turn 
-me into Scala programmer, however, I find the course helpful in my everyday 
-projects especially applying the knowledge to Java stream API. One of 
+I have recently completed a Scala course on Coursera. Now that doesn't turn 
+me into a Scala programmer; however, the knowledge I acquired certainly has been
+very helful with my everyday projects, especially when it comes to applying 
+that knowledge to Java stream API. One of 
 the tasks proposed by [Martin Odersky](https://twitter.com/odersky)
-was to implement do-while loop using only Scala built-in features.
-That task made a great impression. It shows all the power of the
-language and its features. And I want to share the implementation 
-with you.
+was to implement a do-while loop using only Scala built-in features.
+This statement made a great impression on me. It's proof of the power of
+the language and its features. In this blog post, I want to share the implementation
+of the do-while loop in Scala with you.
 
 {% 
   include picture.html 
@@ -19,8 +20,8 @@ with you.
  copyright="BBC"
 %}
 
-Scala already has its own do-while loop (even if it contradicts to 
-functional paradigm). Here is how it looks like:
+Scala already has its own do-while loop (even if it contradicts the 
+functional paradigm). Here is what it looks like:
 
 ```scala
 do {
@@ -28,10 +29,10 @@ do {
 } while (condition)
 ```
 Obviously, every programming language has something like this, but 
-there are no so many languages that allow me implementing such constructions
+there are not so many languages that will allow me to implement such constructions
 by myself.
 
-Instead of `do-while` keywords I use `repeat-until` because I can't use the 
+Instead of `do-while` keywords, I have to use `repeat-until` because I can't use the 
 reserved keywords.
 Here is my implementation:
 ```scala
@@ -46,7 +47,7 @@ def repeat(command: => Unit) = {
   }
 }
 ```
-Here is the example of client code:
+Here is an example of client code:
 ```scala
 var i = 0
 repeat {
@@ -54,21 +55,21 @@ repeat {
   i = i + 1
 } until (i < 5)
 ```
-Ok, let's try to understand what's happening here.
+Okay, let's try to understand what's happening here.
 
-First line of the code is declaration of `repeat` function, which takes `command` 
-function as an argument. The important thing here is `=>` sign - it means
-that the `command` will be evaluated only when it is first needed. Parameters 
-declared with `=>` are called call-by-name parameters.
+The first line of the code is a declaration of the `repeat` function, which takes the `command` 
+function as an argument. The important thing here is the `=>` sign - it means
+that the `command` will be evaluated only when it is first needed. The terminology for 
+parameters declared with the `=>` sign is "call-by-name parameters".
 
-The next part is creation of anonymous object using `new {}` construction. The 
+The next part is the creation of an anonymous object using the `new {}` construction. The 
 object has only one method: `until` which takes call-by-name parameter as well.
 
 In the function body you can see the `command` call. And it is actually the 
-place where it will be first evaluated.
+place where it will first be evaluated.
 
-The next code is simple, if `condition` is `true`, the `until` function will
-be invoked recursively, otherwise the empty result will be returned.
+The next code is simple, if `condition` is `true`, then the `until` function will
+be invoked recursively. Otherwise an empty result will be returned.
 
-And finally such construction becomes real because Scala does not require 
+Finally, the construction of a do-while loop becomes possible because Scala does not require 
 using dots during function invocation.
