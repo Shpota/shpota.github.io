@@ -23,10 +23,10 @@ You may have different views on the matter. Feel free to share these with me!
 
 **It is very verbose**
 
-Java is already very verbose, but ES takes it to the completely
+Java is already very verbose, but ES takes it to a completely
 new level. 
 
-Suppose you want to apply ES for a domain object like this.
+Suppose you want to apply ES for a domain object like this:
 ```java
 public class User {
     private Long id;
@@ -40,7 +40,7 @@ public class User {
 ```
 You have to think about every modification of the object, for instance an event.
 Once a user is added, it should be treated as an added event. In Java
-code, this will be reflected more or less as following:
+code this will be reflected more or less as follows:
 ```java
 public class UserAddedEvent {
     private Long id;
@@ -109,30 +109,31 @@ be extremely slow if you need to operate with a bunch of entities at the
 same time. 
 
 Of course, you can apply some optimizations. For instance, ES works 
-well in [CQRS model](https://martinfowler.com/bliki/CQRS.html). In this case,
+well in [CQRS model](https://martinfowler.com/bliki/CQRS.html). In this case
 you'll have a "write model" and a fast "read model". That might solve performance issues,
 but on the flip side of the coin, it might also introduce new issues. 
 The procedure is ultimately always a trade-off. 
 
 **It is hard to test**
 
-Obviously, it is very hard to cover event-driven objects with unit tests because
-they always require form some context - and context requires connection to storage.
+Obviously it is very hard to cover event-driven objects with unit tests because
+they always require some context - and context requires connection to storage.
 Unit test becomes 'overblown' and less readable.
 
 
-**What is it good for?**
+**What is ES good for?**
 
-If you have preconditions like this:
+If you have the following preconditions:
 
 * It is critical for the application to restore its state at any time
 * Writing is more important than reading
 * There is no responsible UI to show domain entities
 
-Well, then perhaps you can think about ES.
+Well, then perhaps you can think about ES. 
 
 The best examples of applying event-driven architecture are 
 [Blockchain](https://en.wikipedia.org/wiki/Blockchain_(database)) and 
 [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin). Essentially, anything
-related to storing transactions could come to mind here. However, as my blog post has shown, 
-ES becomes problematic when dealing with anything "on-the-move". 
+related to storing transactions could come to mind here. However, as I have pointed out
+in this blog post, event-driven architecture also has some significant drawbacks. 
+I would strongly advise against using it unless the preconditions stated above are met. 
