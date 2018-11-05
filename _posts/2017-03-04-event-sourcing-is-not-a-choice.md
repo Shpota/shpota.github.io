@@ -134,5 +134,5 @@ Well, then perhaps you can think about ES.
 The best examples of applying event-driven architecture are 
 [Blockchain](https://en.wikipedia.org/wiki/Blockchain_(database)) and 
 [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin). Essentially, anything
-related to storing transactions could come to mind to here. However, as my blog post has shown, 
+related to storing transactions could come to mind here. However, as my blog post has shown, 
 ES becomes problematic when dealing with anything "on-the-move". 
