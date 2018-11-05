@@ -110,7 +110,7 @@ same time.
 
 Of course, you can apply some optimizations. For instance, ES works 
 well in [CQRS model](https://martinfowler.com/bliki/CQRS.html). In this case,
-you'll have to write a model and a fast read model. That might solve performance issues,
+you'll have a "write model" and a fast "read model". That might solve performance issues,
 but on the flip side of the coin, it might also introduce new issues. 
 The procedure is ultimately always a trade-off. 
 
