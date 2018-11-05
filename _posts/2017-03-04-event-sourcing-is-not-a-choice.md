@@ -5,7 +5,7 @@ date:   2017-03-04 10:00:00 +0200
 comments: true
 ---
 Event-driven architecture has become extemely popular nowadays. It is
-easy to start and it can easily be integrated into/with popular Java frameworks 
+easy to start and it can easily be integrated with popular Java frameworks 
 like Spring. I have been working on event sourcing for the past six months. In this period,
 I have collected some thoughts on the subject of event-driven architecture. 
 Despite all its features, I believe that such architecture should be applied 
