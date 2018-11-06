@@ -126,7 +126,7 @@ Unit test becomes 'overblown' and less readable.
 If you have the following preconditions:
 
 * It is critical for the application to restore its state at any time
-* Writing is more important than reading
+* Writing occurs more frequently than reading
 * There is no responsible UI to show domain entities
 
 Well, then perhaps you can think about ES. 
