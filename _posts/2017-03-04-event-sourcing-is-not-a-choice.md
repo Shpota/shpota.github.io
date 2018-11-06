@@ -75,8 +75,8 @@ and every event requires its own handler.
 Suppose you want to add a `nickname` to the `User` entity.
 
 Sounds easy, right? Yet once you add a field, most of your events will be invalidated. 
-You'll have to distinguish events, which were generated before the field was added. 
-Needless to say, the same applies for all the other events as well.
+You'll have to distinguish events, which were generated before and after the field was added. 
+This is going to cost you a lot of time. 
 
 This case is usually covered by event versioning and event upcasting. You 
 have to introduce an upcaster, which will supplement old events with 
