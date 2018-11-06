@@ -103,7 +103,7 @@ But from time to time you have to show the information
 somewhere in a GUI, or you have to make a report based on the data stored as events. 
 In these cases you will encounter problems. 
 
-If you haven't completed the domain entity, then you can only build it from events 
+If you don't have a complete domain entity, then you can only build it from events 
 when needed. The more changes you have, the slower the process becomes. It will 
 be extremely slow if you need to operate with a bunch of entities at the 
 same time. 
