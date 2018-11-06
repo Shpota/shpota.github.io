@@ -138,5 +138,4 @@ related to storing transactions could come to mind here, which means that
 event-driven architecture does have its merits. In the end it all comes down 
 to the specific project you’re busy on. If the preconditions as described 
 above are met, then event-driven architecture might be the way to go. 
-However, as I have shown in this blog post, event sourcing doesn’t necessarily 
-have to be the choice for your next project. What do you think?
+If not, then I would suggest that you think twice before using event-driven architecture.
