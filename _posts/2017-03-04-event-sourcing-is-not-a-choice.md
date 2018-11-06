@@ -134,6 +134,9 @@ Well, then perhaps you can think about ES.
 The best examples of applying event-driven architecture are 
 [Blockchain](https://en.wikipedia.org/wiki/Blockchain_(database)) and 
 [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin). Essentially, anything
-related to storing transactions could come to mind here. However, as I have pointed out
-in this blog post, event-driven architecture also has some significant drawbacks. 
-I would strongly advise against using it unless the preconditions stated above are met. 
+related to storing transactions could come to mind here, which means that
+event-driven architecture does have its merits. In the end it all comes down 
+to the specific project you’re busy on. If the preconditions as described 
+above are met, then event-driven architecture might be the way to go. 
+However, as I have shown in this blog post, event sourcing doesn’t necessarily 
+have to be the choice for your next project. What do you think? 
