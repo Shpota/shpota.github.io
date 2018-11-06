@@ -38,9 +38,9 @@ public class User {
     private Set<Role> roles;
 }
 ```
-You have to think about every modification of the object, for instance an event.
-Once a user is added, it should be treated as an added event. In Java
-code this will be reflected more or less as follows:
+You should take into account that every modification of the user object 
+will result in an event object. So once a user is added, it should then be treated 
+as an added event. In Java code this will be reflected more or less as follows:
 ```java
 public class UserAddedEvent {
     private Long id;
