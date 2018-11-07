@@ -1,0 +1,17 @@
+language: ruby
+sudo: false
+rvm:
+- 2.5.3
+cache: bundler
+branches:
+  only:
+  - master
+addons:
+  apt:
+    packages:
+    - aspell
+    - aspell-en
+install:
+- travis_retry bundle install
+script:
+- rake
