@@ -19,10 +19,10 @@ And how complex is it? This is what I'll try to address in this blog.
 {% 
   include picture.html 
   href="2018-10-30-car-automation.jpg" 
-  copyright="oemupdate. com"
+  copyright="oemupdate.com"
 %}
 
-A team that works together continuously naturally developes a shared
+A team that works together continuously naturally develops a shared
 set of coding or architectural standards. In a nutshell, similar
 patterns arise. If it is a web application 
 with Spring, then you might  break your code into repository, service 
@@ -136,7 +136,7 @@ Once you're done with this and run your plugin it will offer the following item:
   include picture.html 
   href="2018-10-30-generate-menu.png" 
 %}
-The next step enabliung the user to select the fields they want
+The next step enabling the user to select the fields they want
 to use in DTO. Here you only need to add the following implementation to 
 `getAllOriginalMembers`:
 

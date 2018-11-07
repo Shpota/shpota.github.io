@@ -4,7 +4,7 @@ title:  "Why Event Sourcing Is Not a Choice for Your Next Project?"
 date:   2017-03-04 10:00:00 +0200
 comments: true
 ---
-Event-driven architecture has become extemely popular nowadays. It is
+Event-driven architecture has become extremely popular nowadays. It is
 easy to start and it can easily be integrated with popular Java frameworks 
 like Spring. I have been working on event sourcing for the past six months. In this period,
 I have collected some thoughts on the subject of event-driven architecture. 
@@ -134,5 +134,6 @@ Well, then perhaps you can think about ES.
 The best examples of applying event-driven architecture are 
 [Blockchain](https://en.wikipedia.org/wiki/Blockchain_(database)) and 
 [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin). Essentially, anything
-related to storing transactions could come to mind here. In any case think 
-twice before using event-driven architecture.
+related to storing transactions could come to mind here. 
+
+But in any case think twice before using event-driven architecture.
