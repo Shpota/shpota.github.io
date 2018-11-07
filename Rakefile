@@ -9,7 +9,8 @@ require 'English'
 
 task default: [
     :clean,
-    :build
+    :build,
+    :spell
 ]
 
 def done(msg)
