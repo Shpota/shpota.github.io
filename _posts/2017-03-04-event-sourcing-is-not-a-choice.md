@@ -50,7 +50,7 @@ public class UserAddedEvent {
 }
 ```
 This event then will be handled by the application to create a user
-with appropriate email, name, or any other default set of roles.
+with appropriate email, name and a default set of roles.
 
 ```java
 public void handle(UserAddedEvent event) {
@@ -121,7 +121,7 @@ they always require some context - and context requires connection to storage.
 Unit test becomes 'overblown' and less readable.
 
 
-**What is ES good for?**
+**What is Event Sourcing good for?**
 
 If you have the following preconditions:
 
@@ -134,8 +134,5 @@ Well, then perhaps you can think about ES.
 The best examples of applying event-driven architecture are 
 [Blockchain](https://en.wikipedia.org/wiki/Blockchain_(database)) and 
 [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin). Essentially, anything
-related to storing transactions could come to mind here, which means that
-event-driven architecture does have its merits. In the end it all comes down 
-to the specific project you’re busy on. If the preconditions as described 
-above are met, then event-driven architecture might be the way to go. 
-If not, then I would suggest that you think twice before using event-driven architecture.
+related to storing transactions could come to mind here. In any case think 
+twice before using event-driven architecture.
