@@ -36,6 +36,8 @@ end
 
 desc 'Check spelling in all HTML pages'
 task spell: [:build] do
+  print 'Aspell Version: '
+  system('aspell -v')
   Dir['_site/**/*.html'].each do |f|
     html = Nokogiri::HTML(File.read(f))
     html.search('//code').remove
