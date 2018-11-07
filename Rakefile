@@ -42,7 +42,15 @@ task spell: [:build] do
     html.search('//pre').remove
     html.search('//header').remove
     html.search('//footer').remove
-    text = html.xpath('/html/body/main/div/article//p').text
+    text = html.xpath('//article//p|//article//h2|//article//h3').to_a.join(' ')
+               .gsub(/[\n\r\t ]+/, ' ')
+               .gsub(/&[a-z]+;/, ' ')
+               .gsub(/&#[0-9]+;/, ' ')
+               .gsub(/n[’']t/, ' not')
+               .gsub(/[’']ll/, ' will')
+               .gsub(/[’']ve/, ' have')
+               .gsub(/[’']s/, ' ')
+               .gsub(/[,:;<>?!-#$%^&@]+/, ' ')
     tmp = Tempfile.new(['sashashpota-', '.txt'])
     tmp << text
     tmp.flush

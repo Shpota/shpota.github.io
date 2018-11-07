@@ -6,7 +6,7 @@ comments: true
 ---
 I have recently completed a Scala course on Coursera. Now that doesn't turn 
 me into a Scala programmer; however, the knowledge I acquired certainly has been
-very helful with my everyday projects, especially when it comes to applying 
+very helpful with my everyday projects, especially when it comes to applying 
 that knowledge to Java stream API. One of 
 the tasks proposed by [Martin Odersky](https://twitter.com/odersky)
 was to implement a do-while loop using only Scala built-in features.
