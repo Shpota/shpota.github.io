@@ -60,3 +60,11 @@ figure figcaption {
 figcaption {
   display: block;
 }
+
+.word-counter, .time-to-read {
+  padding-left: 3%;
+}
+
+.post-meta-block {
+  padding-bottom: 1%;
+}
