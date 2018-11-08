@@ -12,7 +12,7 @@ layout: default
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             <div class="post-meta-block">
                 <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
-                <span class="post-meta word-counter">{{ post.content | count_words }} words</span>
+                <!--<span class="post-meta word-counter">{{ post.content | count_words }} words</span>
                 <span class="post-meta time-to-read">
                   {% capture time %}{{ post.content | reading_time }}{% endcapture %}
                   {% if time == '1' %}
@@ -33,7 +33,7 @@ layout: default
                     minutes
                   {% endif %}
                   to read
-                </span>
+                </span>-->
             </div>
             {{ post.excerpt }} <a href="{{ post.url | relative_url }}">continue...</a>
         </li>
