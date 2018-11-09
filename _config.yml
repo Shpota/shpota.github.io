@@ -13,5 +13,8 @@ theme: minima
 plugins:
   - jekyll-feed
 exclude:
+  - README.md
+  - LICENSE.txt
   - Gemfile
   - Gemfile.lock
+  - Rakefile

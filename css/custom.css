@@ -68,3 +68,7 @@ figcaption {
 .post-meta-block {
   padding-bottom: 1%;
 }
+
+.image-copyright > a {
+  color: inherit !important;
+}
