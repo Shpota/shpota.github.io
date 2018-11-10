@@ -72,3 +72,16 @@ figcaption {
 .image-copyright > a {
   color: inherit !important;
 }
+
+.site-nav-info {
+  float: right;
+  line-height: 54px;
+}
+
+.site-nav-info > a {
+  color: #111;
+}
+
+.site-nav-info > a:not(:last-child) {
+    margin-right: 20px;
+}
