@@ -11,7 +11,8 @@ layout: default
         <li>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             <div class="post-meta-block">
-                <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+                {%- assign date_format = site.minima.date_format | default: "%-d %b %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
 
                 {% assign content = post.content | replace: '</span> ', '' %}
                 {% assign content = content | replace: '</span>', '' %}
