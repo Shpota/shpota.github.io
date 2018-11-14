@@ -13,6 +13,7 @@ a standalone Java application in a Docker container.
   include picture.html 
   href="2017-02-19-shipping-docker-with-java.jpg" 
   copyright="atlanticshipping.is"
+  alt="Huge Ship"
 %}
 
 <br/>

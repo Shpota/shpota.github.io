@@ -15,6 +15,7 @@ very carefully in terms of understanding its consequences.
   include picture.html 
   href="2017-03-03-event-sourcing-is-not-a-choice.jpg" 
   copyright="Reuters"
+  alt="Stock Market Agent"
 %}
 
 I want to list some drawbacks that I found while working with event-driven architecture. 

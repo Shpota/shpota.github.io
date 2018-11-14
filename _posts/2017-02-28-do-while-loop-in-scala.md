@@ -18,6 +18,7 @@ of the do-while loop in Scala with you.
   include picture.html 
   href="2017-02-28-do-while-loop-in-scala.jpg" 
   copyright="BBC"
+  alt="Roller Coaster"
 %}
 
 Scala already has its own do-while loop (even if it contradicts the 

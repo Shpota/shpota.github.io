@@ -20,6 +20,7 @@ And how complex is it? This is what I'll try to address in this blog.
   include picture.html 
   href="2018-10-30-car-automation.jpg" 
   copyright="oemupdate.com"
+  alt="Car Factory"
 %}
 
 A team that works together continuously naturally develops a shared
@@ -72,6 +73,7 @@ I want to implement the following scenario:
 {% 
   include picture.html 
   href="2018-10-30-plugin-showcase.gif" 
+  alt="Plugin Showcase"
 %}
 
 As a result, the IDE creates a DTO class with the selected fields. 
@@ -134,7 +136,8 @@ that you see when generating code.
 Once you're done with this and run your plugin it will offer the following item:
 {% 
   include picture.html 
-  href="2018-10-30-generate-menu.png" 
+  href="2018-10-30-generate-menu.png"
+  alt="Generate Menu"
 %}
 The next step enabling the user to select the fields they want
 to use in DTO. Here you only need to add the following implementation to 
@@ -153,7 +156,8 @@ the menu and converts them to `PsiFieldMember` instances. That will
 eventually appear once the user presses the `Generate DTO` button:
 {% 
   include picture.html 
-  href="2018-10-30-select-fields.png" 
+  href="2018-10-30-select-fields.png"
+  alt="Select Fields" 
 %}
 Now comes the most interesting part: you need to generate a new DTO class based
 on the fields the user selected. 
