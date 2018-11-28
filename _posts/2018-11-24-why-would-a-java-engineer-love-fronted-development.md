@@ -13,12 +13,16 @@ still invent a new framework a day. What I mean is that working with frontend
 is not a pain anymore. I'm going to explain some of the reasons why I like
 frontend development and particularly why I like Angular with TypeScript. 
 
+Test test...
+
 {%
   include picture.html 
   href="2018-11-27-wesley-snipes.png" 
   copyright="Demolition Man (1993) by Marco Brambilla"
   alt="Two Paths"
 %}
+
+
 
 First of all, it is essentially important to choose suitable frontend technologies.
 Though I didn't try that many frontend frameworks (I'm Java Developer after all),
