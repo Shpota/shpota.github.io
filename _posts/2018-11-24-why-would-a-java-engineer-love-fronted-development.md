@@ -157,7 +157,7 @@ It is not a secret that it's impossible to implement good tooling for JavaScrip
 and generally for all dynamically typed languages. You simply don't know what 
 the actual type of a variable is, so you can't have a good code completion.
 However, that's not the case for TypeScript. Both Visual Studio Code and WebStorm
-provide great support. Not only do they perform code completion and other basic functions,but
+provide great support. Not only do they perform code completion and other basic functions, but
 they also deeply integrate framework specific functionality like navigation to a component
 definition, validators, linters, etc.
 
