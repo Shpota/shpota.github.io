@@ -8,8 +8,8 @@ It often happens that backend developers don't like working with a frontend.
 Even more, some hate frontend development. The complaints are always
 the same: JavaScript is hell, there's no types, it's hard to predict the result,
 all that cross-browser stuff is a pain and many more. I was one of those guys but now
-I'm on the other side as the situation with JavaScript has changed. True, they 
-still invent a new framework a day! What I mean is that working with a frontend 
+I'm on the other side as the situation with JavaScript has changed. Sure, they 
+still invent a new framework a day, what I mean is that working with a frontend 
 is not a pain anymore. I'm going to explain some of the reasons I like
 frontend development and particularly why I like Angular with TypeScript. 
 
@@ -54,7 +54,7 @@ export class BookService {
 }
 ```
 Looks familiar, doesn't it? You can also notice the usage of generics which means that 
-you can implement Agile reusable interfaces and simplify your code just like you do
+you can implement agile reusable interfaces and simplify your code just like you do
 it in Java.
 
 And here is how a loop might look:
@@ -162,7 +162,7 @@ they also deeply integrate framework specific functionality like navigation to a
 definition, validators, linters, etc.
 
 Another important thing is debugging. Though I cannot imagine a better debugging experience than 
-in the Java ecosystem, with Angular and TypeScript you get almost as good a debug as in Java. 
+in the Java ecosystem, with Angular and TypeScript it is almost as good as in Java. 
 IntelliJ IDEA and WebStorm are now [smart enough](https://blog.jetbrains.com/webstorm/2017/01/debugging-angular-apps/)
 to use breakpoints directly in the TypeScript and not in the resulting JavaScript like 
 you might expect. This makes the development process complete and enjoyable.
@@ -190,7 +190,7 @@ from CLI.
 **Fast updates with minimal breaking changes**
 
 In the Java community, we are used to the fact that a code written 10 years ago
-will work on a new JVM. There are some exceptions like when transitioning from Java 8 
+will work on a new JVM. There are some exceptions, like when updating from Java 8 
 to Java 9, but generally, it's true. On the other hand, in frontend things tend to be 
 different: you take a break for 6 months and boom, everything has changed and
 everything is new for you.
@@ -198,7 +198,7 @@ everything is new for you.
 Angular is somewhere in between. They release often, they introduce breaking
 changes but at the same time, they make the transitions soft.
 
-For instance, when we migrated from Angular 3 to Angular 4 they literally changed 
+For instance, when we migrated from Angular 3 to Angular 4 we literally changed 
 a few lines of code. It was more complex to migrate from 4 to 5 as they introduced 
 a new HTTP Client but there were no surprises.
 
