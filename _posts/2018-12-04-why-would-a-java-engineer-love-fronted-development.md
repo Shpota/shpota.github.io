@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why Would a Java Engineer Love Frontend Development?"
-date:   2018-11-24 10:00:00 +0200
+date:   2018-12-04 10:00:00 +0200
 comments: true
 ---
 It often happens that backend developers don't like working with a frontend. 
@@ -15,7 +15,7 @@ frontend development and particularly why I like Angular with TypeScript.
 
 {%
   include picture.html 
-  href="2018-11-27-wesley-snipes.png" 
+  href="2018-12-04-wesley-snipes.png" 
   copyright="Demolition Man (1993) by Marco Brambilla"
   alt="Two Paths"
 %}
