@@ -153,7 +153,7 @@ testable and supportable.
 
 **IDE support and Tooling**
 
-It is not a secret that it's impossible to implement good tooling for JavaScrip
+It is not a secret that it's impossible to implement good tooling for JavaScript
 and generally for all dynamically typed languages. You simply don't know what 
 the actual type of a variable is, so you can't have a good code completion.
 However, that's not the case for TypeScript. Both Visual Studio Code and WebStorm
