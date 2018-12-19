@@ -1,10 +1,12 @@
-<figure>
-    {% if include.alt %}
-    <img src="/images/{{ include.href }}" alt="{{ include.alt }}">
-    {% else %}
-    <img src="/images/{{ include.href }}" alt="An image">
-    {% endif %}
-    {% if include.copyright %}
-    <figcaption class="image-copyright">© {{ include.copyright }}</figcaption>
-    {% endif %}
-</figure>
+<div class="post-picture">
+    <figure>
+        {% if include.alt %}
+        <img src="/images/{{ include.href }}" alt="{{ include.alt }}">
+        {% else %}
+        <img src="/images/{{ include.href }}" alt="An image">
+        {% endif %}
+        {% if include.copyright %}
+        <figcaption class="image-copyright">© {{ include.copyright }}</figcaption>
+        {% endif %}
+    </figure>
+</div>
