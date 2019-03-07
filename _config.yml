@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is my personal blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-copyright: "© Oleksandr Shpota, 2017—2018"
+copyright: "© Oleksandr Shpota, 2017—2019"
 encoding: utf-8
 
 # Build settings
