@@ -42,4 +42,8 @@ multiline
 linters
 SQL
 JUnit
+matcher
+Mockito
+matchers
+Matchers
 JVM
