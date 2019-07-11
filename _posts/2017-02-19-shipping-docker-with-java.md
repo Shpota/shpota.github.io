@@ -13,9 +13,7 @@ everyday tool for many developers. However, there are still a lot of people out 
 who haven't tried Docker. In this article, I'm going to show you how to ship
 a standalone Java application in a Docker container.
 
-{% 
-  include picture.html 
-%}
+{% include picture.html %}
 
 <br/>
 **Docker installation**

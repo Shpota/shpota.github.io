@@ -3,6 +3,10 @@ layout: post
 title:  "Why you need to implement your own IntelliJ IDEA plugin"
 date:   2018-10-30 10:00:00 +0200
 comments: true
+img:
+  href: 2018-10-30-car-automation.jpg
+  copyright: oemupdate.com
+  alt: Car Factory
 ---
 IntelliJ IDEA is a powerful tool that aims at increasing
 productivity. It speeds up the development process and optimizes 
@@ -16,12 +20,7 @@ an own plugin that will optimize processes that cannot be
 customized via standard tools. What exactly could be achieved thereby? 
 And how complex is it? This is what I'll try to address in this blog.
 
-{% 
-  include picture.html 
-  href="2018-10-30-car-automation.jpg" 
-  copyright="oemupdate.com"
-  alt="Car Factory"
-%}
+{% include picture.html %}
 
 A team that works together continuously naturally develops a shared
 set of coding or architectural standards. In a nutshell, similar

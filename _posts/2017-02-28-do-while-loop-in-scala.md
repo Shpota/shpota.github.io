@@ -3,6 +3,10 @@ layout: post
 title:  "Implementing do-while Loop in Scala"
 date:   2017-02-28 21:00:00 +0200
 comments: true
+img:
+  href: 2017-02-28-do-while-loop-in-scala.jpg
+  copyright: BBC
+  alt: Roller Coaster
 ---
 I have recently completed a Scala course on Coursera. Now that doesn't turn 
 me into a Scala programmer; however, the knowledge I acquired certainly has been
@@ -14,12 +18,7 @@ This statement made a great impression on me. It's proof of the power of
 the language and its features. In this blog post, I want to share the implementation
 of the do-while loop in Scala with you.
 
-{% 
-  include picture.html 
-  href="2017-02-28-do-while-loop-in-scala.jpg" 
-  copyright="BBC"
-  alt="Roller Coaster"
-%}
+{% include picture.html %}
 
 Scala already has its own do-while loop (even if it contradicts the 
 functional paradigm). Here is what it looks like:

@@ -3,6 +3,10 @@ layout: post
 title:  "Why Would a Java Engineer Love Frontend Development?"
 date:   2018-12-04 10:00:00 +0200
 comments: true
+img:
+  href: 2018-12-04-wesley-snipes.png
+  copyright: Demolition Man (1993) by Marco Brambilla
+  alt: Two Paths
 ---
 It often happens that backend developers don't like working with a frontend. 
 Even more, some hate frontend development. The complaints are always
@@ -13,12 +17,7 @@ still invent a new framework a day, what I mean is that working with a frontend
 is not a pain anymore. I'm going to explain some of the reasons I like
 frontend development and particularly why I like Angular with TypeScript. 
 
-{%
-  include picture.html 
-  href="2018-12-04-wesley-snipes.png" 
-  copyright="Demolition Man (1993) by Marco Brambilla"
-  alt="Two Paths"
-%}
+{% include picture.html %}
 
 First of all, it is extremely important to choose suitable frontend technologies.
 Though I haven't tried that many frontend frameworks (I'm a Java Developer after all),

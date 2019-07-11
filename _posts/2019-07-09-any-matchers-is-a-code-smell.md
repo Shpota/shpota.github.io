@@ -3,6 +3,10 @@ layout: post
 title:  "Using 'any' Matchers in Unit Tests is a Code Smell"
 date:   2019-07-09 10:00:00 +0200
 comments: true
+img:
+  href: 2019-07-09-a-dog-in-a-car.jpeg
+  copyright: Snatch (2000) by Guy Ritchie
+  alt: Two men and a dog in a car
 ---
 If you've worked with JUnit and Mockito, you must be familiar with matchers.
 They provide a way to verify parameters during method invocation. Among many 
@@ -11,12 +15,7 @@ Their names all start with the word 'any': `Matchers.any()`, `Matchers.anyString
 `anyCollection()`, etc. If in your project, you find many of such calls there 
 is a high chance that something is wrong with your code. Let me explain why.
 
-{%
-  include picture.html 
-  href="2019-07-09-a-dog-in-a-car.jpeg" 
-  copyright="Snatch (2000) by Guy Ritchie"
-  alt="Two men and a dog in a car"
-%}
+{% include picture.html %}
 
 Have you ever seen or written code like this?
 

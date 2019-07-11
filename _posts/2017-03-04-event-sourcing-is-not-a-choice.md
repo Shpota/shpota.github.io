@@ -3,6 +3,10 @@ layout: post
 title:  "Why Event Sourcing Is Not a Choice for Your Next Project?"
 date:   2017-03-04 10:00:00 +0200
 comments: true
+img:
+  href: 2017-03-03-event-sourcing-is-not-a-choice.jpg
+  copyright: Reuters
+  alt: Stock Market Agent
 ---
 Event-driven architecture has become extremely popular nowadays. It is
 easy to start and it can easily be integrated with popular Java frameworks 
@@ -11,12 +15,7 @@ I have collected some thoughts on the subject of event-driven architecture.
 Despite all its features, I believe that such architecture should be applied 
 very carefully in terms of understanding its consequences. 
 
-{% 
-  include picture.html 
-  href="2017-03-03-event-sourcing-is-not-a-choice.jpg" 
-  copyright="Reuters"
-  alt="Stock Market Agent"
-%}
+{% include picture.html %}
 
 I want to list some drawbacks that I found while working with event-driven architecture. 
 Now I’m not saying that you shouldn't use it, these are just my observations. 
