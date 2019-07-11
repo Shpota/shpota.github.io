@@ -1,5 +1,8 @@
 title: "Blog about Software Development"
 email: sashashpota@gmail.com
+author:
+  name: Sasha Shpota
+  twitter: sashashpota
 description: > # this means to ignore newlines until "baseurl:"
   This is my personal blog.
 baseurl: "" # the subpath of your site, e.g. /blog

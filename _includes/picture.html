@@ -1,4 +1,16 @@
 <div class="post-picture">
+    {% if page.img %}
+    <figure>
+        {% if page.img.alt %}
+        <img src="/images/{{ page.img.href }}" alt="{{ page.img.alt }}">
+        {% else %}
+        <img src="/images/{{ page.img.href }}" alt="An image">
+        {% endif %}
+        {% if page.img.copyright %}
+        <figcaption class="image-copyright">© {{ page.img.copyright }}</figcaption>
+        {% endif %}
+    </figure>
+    {% else %}
     <figure>
         {% if include.alt %}
         <img src="/images/{{ include.href }}" alt="{{ include.alt }}">
@@ -9,4 +21,5 @@
         <figcaption class="image-copyright">© {{ include.copyright }}</figcaption>
         {% endif %}
     </figure>
+    {% endif %}
 </div>

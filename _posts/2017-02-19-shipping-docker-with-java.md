@@ -3,6 +3,10 @@ layout: post
 title:  "Shipping Docker with Java Application"
 date:   2017-02-19 23:44:26 +0200
 comments: true
+img:
+  href: 2017-02-19-shipping-docker-with-java.jpg
+  copyright: atlanticshipping.is
+  alt: Huge Ship
 ---
 Docker is not a new technology anymore. In the meanwhile, it has become an 
 everyday tool for many developers. However, there are still a lot of people out there
@@ -11,9 +15,6 @@ a standalone Java application in a Docker container.
 
 {% 
   include picture.html 
-  href="2017-02-19-shipping-docker-with-java.jpg" 
-  copyright="atlanticshipping.is"
-  alt="Huge Ship"
 %}
 
 <br/>
