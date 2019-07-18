@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Twitter Integration Plugin for JetBrains IDEs"
-date:   2019-07-17 10:00:00 +0200
+date:   2019-07-18 10:00:00 +0200
 comments: true
 img:
-  href: 2019-07-17-twitter-plugin-showcase.gif
+  href: 2019-07-18-twitter-plugin-showcase.gif
   alt: Plugin Showcase
 ---
 I have implemented [a small IntelliJ plugin](https://github.com/Shpota/twitter-plugin) to 
@@ -26,7 +26,7 @@ press the `Install` button.
 
 {% 
   include picture.html 
-  href="2019-07-17-how-to-install-twitter-plugin.png" 
+  href="2019-07-18-how-to-install-twitter-plugin.png" 
   alt="Plugin Installation"
 %}
 
