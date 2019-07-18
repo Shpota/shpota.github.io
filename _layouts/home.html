@@ -22,7 +22,7 @@ layout: default
 
                 <span class="post-meta word-counter">{{ words }} words</span>
                 <span class="post-meta time-to-read">
-                  {% if time == 1 %}
+                  {% if time <= 1 %}
                     a minute
                   {% else %}
                     {% case time %}

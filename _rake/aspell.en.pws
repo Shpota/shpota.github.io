@@ -27,6 +27,15 @@ workflow
 css
 Kyiv
 WebStorm
+CLion
+JetBrains
+DataGrip
+GoLand
+MPS
+AppCode
+PhpStorm
+PyCharm
+RubyMine
 validators
 Gradle
 Webpack
