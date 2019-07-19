@@ -6,7 +6,7 @@ author:
 description: > # this means to ignore newlines until "baseurl:"
   This is my personal blog.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sashashpota.com"
+url: "https://sashashpota.com"
 copyright: "© Oleksandr Shpota, 2017—2019"
 encoding: utf-8
 
