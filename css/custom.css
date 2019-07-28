@@ -16,6 +16,10 @@
   fill: #800080;
 }
 
+.icon-twitter:hover > svg path {
+  fill: #1DA1F2;
+}
+
 .icon-facebook:hover > svg path {
   fill: #3b5998;
 }
