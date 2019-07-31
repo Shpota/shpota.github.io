@@ -3,9 +3,9 @@ email: sashashpota@gmail.com
 author:
   name: Sasha Shpota
   twitter: sashashpota
-description: > # this means to ignore newlines until "baseurl:"
-  This is my personal blog.
-baseurl: "" # the subpath of your site, e.g. /blog
+description: >
+  Sasha Shpota blogging about Software Development, Java, IntelliJ Plugin Development, Front End and more.
+baseurl: ""
 url: "https://sashashpota.com"
 copyright: "© Oleksandr Shpota, 2017—2019"
 encoding: utf-8
@@ -15,6 +15,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 exclude:
   - README.md
   - LICENSE.txt
