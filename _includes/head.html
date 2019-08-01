@@ -27,6 +27,6 @@
           content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"/>
     {% if page.img %}
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image" content="{{ site.url }}/images/{{ page.img.href }}"/>
+    <meta name="twitter:image" property="og:image" content="{{ site.url }}/images/{{ page.img.href }}"/>
     {% endif %}
 </head>
