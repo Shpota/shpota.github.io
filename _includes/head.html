@@ -1,25 +1,32 @@
 <head>
-    <link rel="shortcut icon" type="image/png" href="/favicon.png?v=2">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png?v=2"/>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <meta name="author" content="{{ site.author.name }}">
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"/>
+    <meta name="author" content="{{ site.author.name }}"/>
 
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-    <link rel="stylesheet" href="/css/custom.css">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-    <!-- Twitter cards -->
-    <meta name="twitter:site"    content="{{ site.author.name }}">
-    <meta name="twitter:creator" content="{{ site.author.name }}">
-    <meta name="twitter:title"   content="{{ page.title }}">
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"/>
+    <link rel="stylesheet" href="/css/custom.css"/>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}"/>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}"/>
 
+    <meta name="og:site_name" content="{{ site.author.name }}"/>
+    <meta name="og:type" content="article" />
+    <meta name="og:locale" content="en_US" />
+
+    <meta name="twitter:site" content="@{{ site.author.twitter }}"/>
+    <meta name="twitter:creator" content="@{{ site.author.twitter }}"/>
+    <meta name="twitter:title" property="og:title"
+          content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}"/>
+    <meta name="twitter:url" property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta name="twitter:description"
+          property="og:description"
+          content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"/>
     {% if page.img %}
-    <meta name="twitter:card"  content="summary_large_image">
-    <meta name="twitter:image" content="{{ site.url }}/images/{{ page.img.href }}">
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="{{ site.url }}/images/{{ page.img.href }}"/>
     {% endif %}
-    <!-- end of Twitter cards -->
 </head>
