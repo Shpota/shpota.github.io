@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Shipping Docker with Java Application"
+title:  "Shipping Docker with a Java Application"
 date:   2017-02-19 23:44:26 +0200
 comments: true
 img:

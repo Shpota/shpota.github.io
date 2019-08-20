@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using 'any' Matchers in Unit Tests is a Code Smell"
+title:  "Using 'any' Matchers in Unit Tests Is a Code Smell"
 date:   2019-07-09 10:00:00 +0200
 comments: true
 img:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why you need to implement your own IntelliJ IDEA plugin"
+title:  "Why You Need to Implement Your Own IntelliJ IDEA Plugin"
 date:   2018-10-30 10:00:00 +0200
 comments: true
 img:
