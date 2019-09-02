@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why Event Sourcing Is Not a Choice for Your Next Project?"
+title:  "Why Event Sourcing Is Not a Choice for Your Next Project"
 date:   2017-03-04 10:00:00 +0200
 comments: true
 img:
