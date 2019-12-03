@@ -108,3 +108,8 @@ figcaption {
 .post-picture {
   padding-bottom: 2%;
 }
+
+#photo {
+  width: 24%;
+  float: right;
+}
