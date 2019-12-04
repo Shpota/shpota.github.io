@@ -112,4 +112,6 @@ figcaption {
 #photo {
   width: 24%;
   float: right;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
