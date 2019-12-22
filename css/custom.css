@@ -115,3 +115,9 @@ figcaption {
   margin-left: 5px;
   margin-bottom: 5px;
 }
+
+@media screen and (max-width: 600px) {
+  #photo {
+    width: 50%;
+  }
+}
