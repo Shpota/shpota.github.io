@@ -7,11 +7,11 @@ permalink: /about/
 <img id="photo" alt="Photo" src="/images/photo.jpg">
 
 My name is Sasha Shpota. I am a programmer. I write
-mostly in Java, but also in Go, TypeScript/JavaScript
-and Python. At the moment, I work as a full-stack 
+mostly in Java, but also in Go, Kotlin, TypeScript/JavaScript,
+and occasionally in Python. At the moment, I work as a full-stack 
 developer. In my day to day work, I implement back end
-functionality with Java and Spring Boot, front end with
-Angular and deliver the applications using Docker and
+functionality together with the front end, take care of their
+quality and deliver the applications using Docker and
 Kubernetes.
 
 I am an active open-source contributor and have authored
