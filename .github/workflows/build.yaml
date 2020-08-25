@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Ruby 2.6
+      - name: Set up Ruby 2.7
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.6
+          ruby-version: 2.7
       - name: Build and test
         run: |
           sudo apt-get install aspell aspell-en
