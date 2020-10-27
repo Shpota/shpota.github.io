@@ -83,7 +83,7 @@ on Reddit and [conversationexchange.com](https://conversationexchange.com).
 I did it after I had been learning German for two months. With my current
 level at the time, I could say who I was and what the weather was like in my
 location. However, there was another guy who was eager to help me. We used
-Skype for video calls. During the first few months, we would speak then minutes
+Skype for video calls. During the first few months, we would speak ten minutes
 in German and then an hour in Russian because ten minutes is the longest I
 could talk in German. I understood that it was better to be prepared otherwise
 I would end up talking about things we already discussed several times.
@@ -200,7 +200,7 @@ Surprisingly, I could use German in countries where people generally don't
 use German. I'll tell you about this experience in audio in German. This way
 you will hopefully have an idea on what my language learning level is.
 
-{% include audio.html src="/assets/audio/german.aac" %}
+{% include audio.html src="/assets/audio/eine-taxi-fahrt-in-schweden.aac" %}
 
 I prepared this text and then recorded it. I did not correct my mistakes.
 I did not use any resources either so that it could showcase my level more
