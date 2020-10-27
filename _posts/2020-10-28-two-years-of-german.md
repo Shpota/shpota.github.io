@@ -12,11 +12,12 @@ When I started learning German I was curious about what I could expect from
 the language, how fast I would learn it, and what experience I would have.
 At the time, most of the stories I could find on the Internet were about people
 reaching fluency in half a year and guides about repeating their success.
-I would gladly read something close to how I progress. Learning English was
-tough. I didn't expect German to be any easier. Now, after two years, I want to
-share my experience. I will try to explain my motivation, how I learn, what
-resources I use, how it went, how much it cost, and where I am right now. I do
-it for myself, but I hope other language learners might find it useful.
+I would gladly read something close to how regular people learn. Learning
+English was tough. I didn't expect German to be any easier. Now, after two
+years, I want to share my experience. I will try to explain my motivation, how
+I learn, what resources I use, how it went, how much it cost, and where I am
+right now. I do it for myself, but I hope other language learners might find
+it useful.
 
 {% include picture.html %}
 
@@ -39,7 +40,7 @@ instance, there is a whole cluster of songs about life in East Germany before
 the unification. [This one](https://www.youtube.com/watch?v=UIE8uHNUeRA)
 is absolutely great. It really helped me to personally learn more about the
 subject. Another difference that I find interesting is that songs might often
-be "unpredictable." You listen to a song, you don't know the language, so you
+be "unpredictable". You listen to a song, you don't know the language, so you
 cannot understand the song, but you like it. Then you look for the lyrics, and
 you’ll often be surprised that they sing about something completely different
 than you originally thought. It happens all the time, and it is always
@@ -62,8 +63,10 @@ For A2, we decided to go with a different book -
 which was newer (people don't use paper maps anymore and iPhones are a thing).
 The new book had two parts for A2.1 and A2.2. It turned out half of the materials
 of A1.1 was already covered by my previous book. The other half was new, but
-I used the new constructions here and there, so we decided to jump to A2.2.
-                                                    
+I used the new language constructions here and there, so we decided to jump
+to A2.2.
+
+Here are some of my materials:                           
 {% 
   include picture.html 
   href="2020-10-28-german-books.png" 
@@ -114,14 +117,14 @@ joy that's why I don't mind that it could not be efficient enough.
 
 Podcasts and Radio are also part of my daily routine. Unlike TV shows,
 it is way easier to understand them. I like podcasts from Die Zeit magazine.
-They have many and all are great. Of course, I miss a lot, but I am happy
-when I get the concept and follow the conversations. With radio, it is even
-simpler. I listen to news stations, mainly *B5 Aktuell*. They mention many
-names which help get the context better. They also repeat the same news
-several times a day while adding more details. Sometimes I would not understand
-the news the first time I listened, but the next time I suddenly understand
-almost everything. Radio and podcasts become a way of consuming information
-rather than learning. I am so thrilled that it's working for me.
+They have many and all are great. Of course, I don't understand many words
+and phrases, but I am happy when I get the concept and follow the conversations.
+With radio, it is even simpler. I listen to news stations, mainly *B5 Aktuell*.
+They mention many names which help get the context better. They also repeat the
+same news several times a day while adding more details. Sometimes I would not
+understand the news the first time I listened, but the next time I suddenly
+understand almost everything. Radio and podcasts become a way of consuming
+information rather than learning. I am so thrilled that it's working for me.
 
 I am also subscribed to several German-speaking Twitter accounts. People
 often use informal language or dialects on there, and it is always interesting
