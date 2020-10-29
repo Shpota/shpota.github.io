@@ -39,8 +39,8 @@ gym, traveling and enjoying free time with my family.
 Of course, I [code](https://github.com/Shpota) from
 time to time. In the meantime I like exploring 
 new cultures and new languages - I am learning
-German at the moment and I can't wait until I am
+German at the moment, and I can't wait until I am
 able to communicate freely with native speakers.
 
-On this blog, I share my thoughts about software
-development.
+On this blog, I share my thoughts mostly about software
+development and on everything that interests me.
