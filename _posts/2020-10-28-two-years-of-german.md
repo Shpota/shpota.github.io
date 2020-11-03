@@ -130,7 +130,7 @@ I am also subscribed to several German-speaking Twitter accounts. People
 often use informal language or dialects on there, and it is always interesting
 to read such tweets and try to find out what all those words could mean. Once
 I came across a Twitter thread which was hard to comprehend and the shortcuts
-were usual. However, it was somewhat readable. Then I learned that it was in
+were unusual. However, it was somewhat readable. Then I learned that it was in
 the Luxembourgish language which is a different language.
 
 **Books**. I try reading simple books. It is quite hard. Although bilingual
