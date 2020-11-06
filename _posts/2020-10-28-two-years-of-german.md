@@ -96,7 +96,7 @@ friends, I only summarized them by the book when we were learning this part.
 
 A half a year later, I met another guy from Germany who lived in Kyiv
 and was learning Russian and Ukrainian. We would meet in person and take
-long walks in the city centre discussing different topics from computer
+long walks in the city center discussing different topics from computer
 science to life in different countries. Sometimes he would talk to me in
 German and I would reply in Russian. This way we would be able to understand
 each other a bit better. He returned to Germany, but we still keep in touch.
