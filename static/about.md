@@ -44,3 +44,7 @@ able to communicate freely with native speakers.
 
 On this blog, I share my thoughts mostly about software
 development and on everything that interests me.
+
+If you think I can help you with your business or
+if you have any questions to me feel free to email
+me at [sasha@shpota.com](mailto:sasha@shpota.com).
