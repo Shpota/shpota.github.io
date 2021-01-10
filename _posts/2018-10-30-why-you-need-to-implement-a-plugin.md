@@ -78,7 +78,7 @@ I want to implement the following scenario:
 As a result, the IDE creates a DTO class with the selected fields. 
 
 Okay, let's start. First of all, you need to create 
-[a Plugin Development project](https://www.jetbrains.com/help/idea/creating-a-project-for-plugin-development.html).
+[a Plugin Development project](https://jetbrains.org/intellij/sdk/docs/basics/getting_started/creating_plugin_project.html).
 
 Then you need to introduce a new menu item ('Generate DTO' button). For this purpose,
 you need to create two java classes and an xml configuration file. The first class should
