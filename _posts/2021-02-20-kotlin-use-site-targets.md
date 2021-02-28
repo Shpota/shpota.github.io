@@ -9,12 +9,12 @@ img:
   alt: Dogs of Berlin
 ---
 I like Kotlin for its expressiveness. Its interoperability with Java
-allows to easily use the existing Java ecosystem while enjoying a modern
-language. When it comes to annotations Kotlin handles them almost the same
-as Java. In Kotlin, a single syntax construction might be compiled into
-several JVM constructions. A Kotlin property would produce a JVM field,
-a getter, and optionally a setter. This is where annotation use-site targets
-are useful.
+allows the developer to easily use the existing Java ecosystem while
+enjoying a modern language. When it comes to annotations Kotlin handles
+them almost the same as Java. In Kotlin, a single syntax construction
+might be compiled into several JVM constructions. A Kotlin property
+would produce a JVM field, a getter, and optionally a setter. This is
+where annotation use-site targets are useful.
 
 {% include picture.html %}
 
@@ -31,8 +31,8 @@ data class User(
 
 Once it is compiled, the corresponding class would have a constructor,
 fields, getters, equals, hashcode, and some other language elements.
-If you need that in the compiled code annotations were generated specifically
-for getters or fields you can specify so-called use-site targets:
+In order to generate annotations for getters and fields specifically,
+you can specify the so-called use-site targets.
 
 ```kotlin
 data class User(
@@ -50,13 +50,13 @@ of an annotation. The problem is that there is no intuitive way to find out what
 use-site target an annotation has to use. In fact, forgetting to specify an
 annotation target is one of the most common sources of bugs in my code.
 
-It would be great if I could omit to specify use-site targets, and
-the Kotlin compiler would magically put them into the proper places.
+It would be much more efficient if I could omit the use-site target specifications,
+and the Kotlin compiler magically put them into the proper places.
 
 This is exactly the reason why I decided to create 
 [Ktargeter](https://github.com/ktargeter/ktargeter). I spent
-some time researching the subject. I tried annotation processing,
-code generation, but eventually, I went with creating a compiler
+some time researching the subject. I tried annotation processing and 
+code generation, but eventually I went with creating a compiler
 plugin. Luckily, Kotlin 1.4 brought [the new JVM IR Backend](https://blog.jetbrains.com/kotlin/2021/02/the-jvm-backend-is-in-beta-let-s-make-it-stable-together/)
 which is a set of APIs that allow to easily preprocess Kotlin code.
 
