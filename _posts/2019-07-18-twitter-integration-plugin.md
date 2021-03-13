@@ -16,7 +16,7 @@ browser with the selected text.
 {% include picture.html %}
 
 **The source code** of the plugin is available 
-[on GitHub](https://github.com/Shpota/twitter-plugin). It is written in Java and built with
+[on GitHub](https://github.com/Shpota/twitter-plugin). It is written in Kotlin and built with
 Gradle. You are welcome to open issues or pull requests if you want to improve the plugin.
 
 **Installation:** The plugin is available in
