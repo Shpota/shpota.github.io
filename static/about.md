@@ -6,13 +6,13 @@ permalink: /about/
 
 <img id="photo" alt="Photo" src="/images/photo.jpg">
 
-My name is Sasha Shpota. I am a programmer. I write
-mostly in Kotlin, but also in Go, Java, TypeScript/JavaScript,
-and occasionally in Python. At the moment, I work as a full-stack 
-developer. In my day to day work, I implement back end
-functionality together with the front end, take care of their
-quality and deliver the applications using Docker and
-Kubernetes.
+My name is Sasha Shpota. I am a programmer. I write mostly in
+TypeScript and Kotlin, but also in Go, Java, and occasionally
+in Python. At the moment, I work as a full-stack developer
+building the next big thing in the web3 space. In my day-to-day
+work, I implement back end functionality together with the front
+end, take care of their quality and deliver the applications
+using Kubernetes.
 
 I am an active open-source contributor and have authored
 several tools and applications, which you can find on
