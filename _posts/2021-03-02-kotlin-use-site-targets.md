@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unwrapping Use-site Targets in Kotlin"
+title:  "Unwrapping Use-Site Targets in Kotlin"
 date:   2021-03-02 10:00:00 +0200
 comments: true
 img:
