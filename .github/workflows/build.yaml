@@ -14,6 +14,7 @@ jobs:
       - name: Build and test
         run: |
           sudo apt-get install aspell aspell-en
+          rm Gemfile.lock #TODO: fix it
           gem install bundler nokogiri
           bundle install
           rake
