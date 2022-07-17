@@ -128,7 +128,7 @@ import { UsersService } from './users.service';
 export class UsersModule {}
 ```
 
-Replace the content of `auth/auth.service.ts ` with this code:
+Replace the content of `auth/auth.service.ts` with this code:
 
 ```typescript
 import { Injectable } from '@nestjs/common';
