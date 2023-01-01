@@ -7,7 +7,7 @@ description: >
   Sasha Shpota blogging about Software Development, Java, Kotlin, IntelliJ Plugin Development, Front End and more.
 baseurl: ""
 url: "https://shpota.com"
-copyright: "© Oleksandr Shpota, 2017—2022"
+copyright: "© Oleksandr Shpota, 2017—2023"
 encoding: utf-8
 
 # Build settings
