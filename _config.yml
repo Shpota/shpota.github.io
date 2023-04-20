@@ -24,4 +24,4 @@ exclude:
   - Rakefile
 
 minima:
-  date_format: "%-d %b %Y"
+  date_format: "%b %-d, %Y"
