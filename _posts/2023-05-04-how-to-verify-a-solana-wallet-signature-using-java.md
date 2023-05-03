@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Verify a Solana Wallet Signature Using Java?"
-date:   2023-05-04 10:00:00 +0200
+date:   2023-05-04 09:00:00 +0200
 comments: true
 img:
     href: 2023-05-04-the-pursuit-of-happyness.png
