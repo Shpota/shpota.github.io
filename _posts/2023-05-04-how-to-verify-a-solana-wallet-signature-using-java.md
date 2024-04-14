@@ -49,7 +49,7 @@ you can achieve it with sol4k.
 
 To add sol4k as a dependency, use the following example for Gradle:
 ```sh
-implementation 'org.sol4k:sol4k:0.3.3'
+implementation 'org.sol4k:sol4k:0.4.1'
 ```
 
 Use the `PublicKey.verify()` function to handle the signature.
