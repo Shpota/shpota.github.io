@@ -283,3 +283,5 @@ Here, we operate with a counter, but there are more sophisticated metrics that c
 control the app more granularly. After configuring monitoring, you might also want to set
 up alerts so that you can be actively notified when something goes wrong. That's a good
 subject for the next article.
+
+You can find the project source code [on GitHub](https://github.com/Shpota/metr101).
